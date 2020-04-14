@@ -1,6 +1,6 @@
 import {ChatRoomMediator} from "../inerfaces/ChatRoomMediator";
 
-export class User {
+export class User  {
     constructor(private name: string, private chatRoomMediator: ChatRoomMediator) {}
 
     getName(){
@@ -10,3 +10,4 @@ export class User {
         this.chatRoomMediator.showMessage(this,message)
     }
 }
+
